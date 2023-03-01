@@ -18,7 +18,7 @@ function addItem(e) {
     var itemList = document.getElementById('users');
 
     var li = document.createElement('li');
-    li.className = "list-group-item fs-5 bg-primary-subtle rounded-pill align-top";
+    li.className = "list-group-item fs-5 bg-primary-subtle rounded-pill align-top border border-danger";
     var display = document.createTextNode(`For ${obj.category}, Paid= ₹ ${obj.expence}, Details:- ${obj.description} `);
     li.appendChild(display);
     itemList.appendChild(li);
